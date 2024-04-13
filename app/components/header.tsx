@@ -10,7 +10,7 @@ export default function Header(){
         <h1 className="">Not Sure</h1>
       </div>
       <div>
-        <Navigation />
+        <Navigation nav={`flex flex-row`}/>
       </div>
     </header>
   )
