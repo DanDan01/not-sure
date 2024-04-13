@@ -5,9 +5,9 @@ import Navigation from "./navigation"
 
 export default function Header(){
   return (
-    <header className="flex justify-between w-full">
+    <header className="">
       <div>
-        <h1>Not Sure</h1>
+        <h1 className="">Not Sure</h1>
       </div>
       <div>
         <Navigation />
